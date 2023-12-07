@@ -1,1 +1,12 @@
-A Powerline like prompt designed for Bash, ZSH. Inspired by @zthxxx's jovial, reworked using Golang by @vakintosh.
+= GO Prompt
+
+The purpose of this project is to have a devops based prompt. For years I have been using Jovial and recently I discovered Starship a fish shell. So i wanted to created a shell in GO to test it un daily usage.
+
+The Go-Prompt should offert most of the feature present on Jovial (zsh) and Starship.
+The Go-Prompt should be able to show which cloud provider we currently use and the region.
+The Go-Prompt should be able to detect the language in a folder and show the version and the venv.
+The Go-Prompt should be able to detect the current tf workspace.
+The Go-Prompt should be able to detect the current tf workspace.
+
+For the structure, something like :
+- [Hour] -(git branch to add dynamically if folder .git in path) - shortened path - cloud profile - Language version + venv/workspace
