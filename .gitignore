@@ -1,0 +1,8 @@
+todo.md
+.history/
+cmd/
+go.mod
+go.sum
+internal/
+templates/
+test.txt
