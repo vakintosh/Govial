@@ -36,6 +36,9 @@ To install Govial, follow these steps:
     ```
 3. Build the project:
     ```sh
+<!-- go mod init govial -->
+<!-- go mod tidy -->
+<!-- go run . -->
     go build
     ```
 4. Add the binary to your shell's PATH.

@@ -3,6 +3,8 @@ todo.md
 cmd/
 go.mod
 go.sum
-internal/
+internal/*
+!internal/prompt
 templates/
-test.txt
+test/
+govialgit
